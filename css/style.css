@@ -18,15 +18,19 @@ header{
     background-color:#9cecf7;
 }
 h1{
+    width: 100%;
+    height: auto;
     font-size: 4rem;
     padding-right: 30%;
-    color: #490768
+    color: #490768;
+    flex-wrap: wrap;
 }
 .titulo-1{
     display: flex;
     justify-content: space-between;
     align-content: center;
     align-items: center;
+    flex-wrap: wrap;
 }
 .logo{
     width: 400px;
@@ -39,11 +43,14 @@ h1{
     color: #530C73
 }
 .diplay-flex{
+    width: 100%;
+    height: auto;
     display: flex;
     justify-content: center;
     gap: 60px;
     padding: 1%;
     padding-top: 3%;
+    flex-wrap: wrap;
 }
 .caja-1{
     width: 600px;
@@ -91,12 +98,15 @@ h1{
     color: #530C73;
 }
 footer{
+    width: 100%;
+    height: auto;
     padding-top: 3%;
     display: flex;
     align-items: center;
     justify-content: center;
 }
 .caja-6{
+    flex-wrap: wrap;
     width: 300px;
     height: 100px;
     background-color: #e4c1d9;
